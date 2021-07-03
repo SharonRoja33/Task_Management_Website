@@ -68,7 +68,7 @@ const saveChanges = () => {
     taskContainer.insertAdjacentHTML("beforeend", createNewCard);
     globalStore.push(taskData);
 
-    // add to localstorage
+    // Add to localstorage
     updateLocalStorage()
 
 };
