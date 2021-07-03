@@ -99,7 +99,7 @@ const deleteCard = (event) => {
 
 };
 
-// content editable
+// content editable feature
 
 const editCard = (event) => {
     event = window.event;
