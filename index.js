@@ -30,7 +30,7 @@ const newCard = ({
        </div>
        <div class="card-footer text-muted">
            <button type="button" id=${id} class="btn btn-outline-primary float-end">Open Task</button>
-       </div>
+     </div>
    </div>
 </div>
 </div>`;
@@ -172,3 +172,4 @@ const saveEditChanges = (event) => {
     submitButton.innerHTML = "Open Task";
 
 };
+
